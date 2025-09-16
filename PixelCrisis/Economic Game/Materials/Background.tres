@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://brij5qmbngrof"]
+
+[sub_resource type="Shader" id="1"]
+code = "shader_type canvas_item;         
+
+
+uniform vec4 albedo_color;
+
+void fragment() {
+    COLOR = albedo_color;
+}
+"
+
+[resource]
+shader = SubResource("1")
+shader_parameter/albedo_color = Vector4(0, 0, 0, 0)
