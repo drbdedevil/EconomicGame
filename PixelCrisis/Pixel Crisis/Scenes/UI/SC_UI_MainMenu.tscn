@@ -1,0 +1,95 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Pixel Crisis/Fonts/Alagard30.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Pixel Crisis/Textures/UI/Icons/IC_ComandIcon.png" type="Texture" id=2]
+[ext_resource path="res://Pixel Crisis/Textures/UI/Textures/TT_MainMenuNoteContent.png" type="Texture" id=3]
+[ext_resource path="res://Pixel Crisis/Textures/UI/Textures/TT_MainMenuNote.png" type="Texture" id=4]
+[ext_resource path="res://Pixel Crisis/Textures/UI/Flat/FLAT_MainMenuBackground.png" type="Texture" id=5]
+[ext_resource path="res://Pixel Crisis/Scripts/UI/MainMenu.cs" type="Script" id=6]
+[ext_resource path="res://Pixel Crisis/Scenes/Gameplay/SC_2D_Main.tscn" type="PackedScene" id=7]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 2.0
+margin_right = 2.0
+rect_scale = Vector2( 1.00143, 1 )
+script = ExtResource( 6 )
+_nextScene = ExtResource( 7 )
+
+[node name="FlatMainMenuBackground" type="Sprite" parent="."]
+position = Vector2( 717.973, 512 )
+z_index = -1
+texture = ExtResource( 5 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_top = 0.85
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -412.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_left = 487.0
+margin_top = 148.0
+margin_right = 953.0
+margin_bottom = 416.0
+custom_constants/separation = 20
+alignment = 1
+
+[node name="BPlay" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_right = 466.0
+margin_bottom = 124.0
+rect_min_size = Vector2( 466, 124 )
+custom_fonts/font = ExtResource( 1 )
+text = "Начать"
+
+[node name="BSettings" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 144.0
+margin_right = 466.0
+margin_bottom = 268.0
+rect_min_size = Vector2( 466, 124 )
+custom_fonts/font = ExtResource( 1 )
+text = "Настройки"
+
+[node name="MarginLogo" type="MarginContainer" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_top = -101.0
+margin_right = 1440.0
+margin_bottom = 8.0
+custom_constants/margin_right = 10
+custom_constants/margin_top = 10
+custom_constants/margin_left = 10
+custom_constants/margin_bottom = -10
+
+[node name="TextureRect" type="TextureRect" parent="MarginLogo"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 1430.0
+margin_bottom = 119.0
+texture = ExtResource( 2 )
+
+[node name="MarginNote" type="MarginContainer" parent="."]
+anchor_right = 1.0
+margin_bottom = 351.0
+custom_constants/margin_top = 71
+
+[node name="NoteTexture" type="TextureRect" parent="MarginNote"]
+margin_top = 71.0
+margin_right = 1440.0
+margin_bottom = 422.0
+texture = ExtResource( 4 )
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginNote/NoteTexture"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_top = -100.5
+margin_right = 564.0
+margin_bottom = 100.5
+custom_constants/margin_left = 20
+
+[node name="TextureRect" type="TextureRect" parent="MarginNote/NoteTexture/MarginContainer"]
+margin_left = 20.0
+margin_right = 584.0
+margin_bottom = 201.0
+texture = ExtResource( 3 )

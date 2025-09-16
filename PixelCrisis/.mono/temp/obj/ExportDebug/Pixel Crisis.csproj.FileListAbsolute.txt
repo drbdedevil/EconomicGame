@@ -1,0 +1,10 @@
+C:\Users\misha\Documents\Projects\EconomicGame\PixelCrisis\.mono\temp\bin\ExportDebug\Pixel Crisis.dll
+C:\Users\misha\Documents\Projects\EconomicGame\PixelCrisis\.mono\temp\bin\ExportDebug\Pixel Crisis.pdb
+C:\Users\misha\Documents\Projects\EconomicGame\PixelCrisis\.mono\temp\obj\ExportDebug\Pixel Crisis.csproj.AssemblyReference.cache
+C:\Users\misha\Documents\Projects\EconomicGame\PixelCrisis\.mono\temp\obj\ExportDebug\Pixel Crisis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\misha\Documents\Projects\EconomicGame\PixelCrisis\.mono\temp\obj\ExportDebug\Pixel Crisis.AssemblyInfoInputs.cache
+C:\Users\misha\Documents\Projects\EconomicGame\PixelCrisis\.mono\temp\obj\ExportDebug\Pixel Crisis.AssemblyInfo.cs
+C:\Users\misha\Documents\Projects\EconomicGame\PixelCrisis\.mono\temp\obj\ExportDebug\Pixel Crisis.csproj.CoreCompileInputs.cache
+C:\Users\misha\Documents\Projects\EconomicGame\PixelCrisis\.mono\temp\obj\ExportDebug\Pixel Crisis.sourcelink.json
+C:\Users\misha\Documents\Projects\EconomicGame\PixelCrisis\.mono\temp\obj\ExportDebug\Pixel Crisis.dll
+C:\Users\misha\Documents\Projects\EconomicGame\PixelCrisis\.mono\temp\obj\ExportDebug\Pixel Crisis.pdb
