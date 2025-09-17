@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Playgound.png-ec4e75d44238808a3f9e28edd48cb85f.stex"
+path="res://.import/FLAT_ShaderPlayground.png-34c00ecfafad9e25b4030e1376ec0f59.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Pixel Crisis/Scenes/Prefabs/Buildings/Playgound.png"
-dest_files=[ "res://.import/Playgound.png-ec4e75d44238808a3f9e28edd48cb85f.stex" ]
+source_file="res://Pixel Crisis/Textures/UI/Flat/FLAT_ShaderPlayground.png"
+dest_files=[ "res://.import/FLAT_ShaderPlayground.png-34c00ecfafad9e25b4030e1376ec0f59.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -31,5 +31,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

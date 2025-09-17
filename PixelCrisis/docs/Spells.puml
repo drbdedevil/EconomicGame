@@ -1,0 +1,9 @@
+@startuml
+
+!include Effects.puml
+
+class AbstractSpell
+{
+    -AbstractEffect effect
+}
+@enduml

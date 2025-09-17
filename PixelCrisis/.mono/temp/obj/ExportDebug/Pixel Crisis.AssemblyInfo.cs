@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pixel Crisis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("ExportDebug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a71e9cd7883c531e7b5e0e9c6f68b38949905109")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3373b94bd3950d5617775c0fe6be1c8989e50b07")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pixel Crisis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pixel Crisis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,13 @@
+using Godot;
+using System;
+
+public class BaseBuilding : Node2D
+{
+    // private list<Resident> _residents
+
+	public override void _Ready()
+    {
+
+    }
+
+}

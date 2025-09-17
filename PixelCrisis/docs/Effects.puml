@@ -1,0 +1,28 @@
+@startuml
+
+class AbstractEffect
+{
+    +int durationStage
+}
+
+class FireEffect
+{
+    +float _damagePerStage
+}
+
+class LazyEffect
+{
+    +float _lazyCoef
+}
+
+class SadEffect
+{
+    +float _sadCoef
+}
+
+AbstractEffect <|- FireEffect
+AbstractEffect <|-- LazyEffect
+AbstractEffect <|-- SadEffect
+
+
+@enduml
